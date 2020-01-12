@@ -1,7 +1,7 @@
 #install.packages("arules")
 
 library(arules)
-setwd("C:/repo/IntObl/ZadaniaAsocjacjaGrupowanie06")
+setwd("H:/Repo/IntObl/ZadaniaAsocjacjaGrupowanie06")
 load("titanic.raw.rdata")
 
 str(titanic.raw)
