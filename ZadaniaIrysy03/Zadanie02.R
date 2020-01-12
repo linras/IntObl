@@ -24,10 +24,10 @@ summary(ir.pca)
 predict(ir.pca, 
         newdata=tail(log.ir, 2))
 
-#library(devtools)
-#install_github("vqv/ggbiplot")
+library(devtools)
+install_github("vqv/ggbiplot")
 
-#library(ggbiplot)
+library(ggbiplot)
 g <- ggbiplot(ir.pca, obs.scale = 1, var.scale = 1, 
               groups = ir.species, ellipse = TRUE, 
               circle = TRUE)
@@ -47,3 +47,4 @@ head(PC, 3)
 
 # Loadings
 trans$rotation
+

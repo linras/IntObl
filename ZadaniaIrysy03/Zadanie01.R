@@ -1,9 +1,10 @@
 library(tidyverse)
 # set working directory
-path_loc <- "C:/Users/antbrz/Downloads"
+path_loc <- "C:/repo/IntObl/ZadaniaIrysy03"
 setwd(path_loc)
 # reading in the data
 df <- read_csv("iris_with_errors.csv") ; df
+str(df)
 
 # taking a quick look
 glimpse(df)
